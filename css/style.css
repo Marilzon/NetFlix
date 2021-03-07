@@ -1,7 +1,6 @@
 :root {
   --red: #E50914;
   --black: #141414;
-
 }
 
 * {
@@ -13,6 +12,7 @@
 body {
   background : var(--black);
   font-family: 'Times New Roman', Times, serif;
+  color: #fff;
 }
 
 header .container {
@@ -38,4 +38,29 @@ header nav a {
 
 header nav a:hover {
   color: #fff;
+}
+
+.main {
+  font-size: 16px;
+  background: url('/img/capa-good-doctor.jpg');
+  background-size: cover;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.description {
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.title, .description {
+  background-color: #1414149a;
+  padding: 5px;
 }
