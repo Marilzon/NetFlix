@@ -1,0 +1,30 @@
+@media screen and (max-width: 700px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .main .container {
+    width: 100%;
+    margin: 1%;
+  }
+
+  .button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1000) {
+  .description {
+    width: 50%;
+  }
+}
